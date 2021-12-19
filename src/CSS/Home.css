@@ -1,0 +1,51 @@
+.Home{
+    
+    
+    color: white;
+    text-align: center;
+
+
+}
+
+.Home h1{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.result{
+    display: flex;
+    margin: 50px auto;
+    width: 50%;
+
+
+}
+
+.result .totalbalance{
+    width:60%;
+    padding: 20px 15px;
+    background-color: green;
+}
+
+.result .totalexp{
+    width:60%;
+    padding: 20px 15px;
+    background-color: rgb(189, 3, 3);
+}
+
+.transaction{
+    display: flex;
+    margin: 50px auto;
+    width: 50%;
+    gap: 20px;
+}
+
+.transaction h3{
+    font-size: 20px;
+}
+
+.transForm{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

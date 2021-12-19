@@ -1,0 +1,90 @@
+body{
+  width: 40%;
+  margin: auto;
+  
+}
+
+.nav{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #18181b;
+  height: 80px;
+  width: 100%;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  
+}
+
+.checkButton i{
+  font-size:30px;
+  color:white;
+  float:right;
+  margin-right: 40px;
+  line-height: 80px;
+  cursor: pointer;
+  
+}
+
+.nav ul{
+  position: fixed;
+  width: 40%;
+  height: 100vh;
+  background-color: #18181b;
+  top: 80px;
+  
+  text-align: center;
+  z-index:1;
+  margin: 0 auto;
+  left: 30%;
+  transition: all 1s;
+
+}
+
+.nav ul li{
+  display:block;
+  
+  font-size: 25px;
+  
+  margin: 50px 0 ;
+  line-height: 30px;
+  
+ 
+}
+
+.link{
+  color: #06a4ff;
+  
+  
+}
+
+
+#check:checked{
+  left: 0;
+}
+
+#check:checked ~ ul{
+  left: -100%;
+}
+
+#check{
+  display: none;
+}
+
+@media only screen and (min-width:300px) and (max-width:1000px){
+  body{
+    width:100%;
+  }
+
+  .nav ul{
+    width:100%;
+    left: 0;
+  }
+}
+

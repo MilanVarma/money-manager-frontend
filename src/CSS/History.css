@@ -1,0 +1,70 @@
+.history{
+    width:70%;
+    margin:100px auto;
+    color: white;
+    text-align: center;
+}
+
+.history h2{
+    font-size: 35px;
+    margin: 50px 0;
+}
+
+.IncomeDetails{
+   
+    padding:10px 20px;
+    font-size: 23px;
+    background-color: rgb(23, 23, 27);
+    color:white;
+    border-right: 10px solid green;
+}
+
+.ExpenseDetails{
+    
+    padding:10px 20px;
+    font-size: 23px;
+    background-color: rgb(23, 23, 27);
+    color:white;
+    border-right: 10px solid red;
+    
+    
+}
+
+.IncomeHistory{
+    display: flex;
+    gap:10px;
+
+}
+
+.ExpenseHistory{
+    display: flex;
+    gap:10px;
+    
+    
+}
+
+@media only screen and (min-width:300px) and (max-width:1000px){
+    .history{
+        width: 90%;
+    }
+
+    .IncomeDetails{
+   
+        padding:10px 20px;
+        font-size: 15px;
+        background-color: rgb(23, 23, 27);
+        color:white;
+        border-right: 10px solid green;
+    }
+    
+    .ExpenseDetails{
+        
+        padding:10px 20px;
+        font-size: 15px;
+        background-color: rgb(23, 23, 27);
+        color:white;
+        border-right: 10px solid red;
+        
+        
+    }
+}
